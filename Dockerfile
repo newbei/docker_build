@@ -1,2 +1,2 @@
-FROM swr.cn-north-4.myhuaweicloud.com/ddn-k8s/quay.io/devtron/nats:2.9.3-alpine
+FROM swr.cn-north-4.myhuaweicloud.com/ddn-k8s/quay.io/openeuler/vllm-ascend:latest
 CMD echo "Hello, World!"
