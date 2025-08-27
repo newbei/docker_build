@@ -1,5 +1,5 @@
 # 基础镜像
-FROM swr.cn-north-4.myhuaweicloud.com/ddn-k8s/ghcr.io/astral-sh/uv:python3.11-bookworm-slim-linuxarm64
+FROM swr.cn-north-4.myhuaweicloud.com/ddn-k8s/ghcr.io/astral-sh/uv:python3.11-bookworm-slim
 
 # 设置工作目录（可选，建议添加，方便后续操作）
 WORKDIR /app
