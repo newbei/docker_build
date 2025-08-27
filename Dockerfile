@@ -5,7 +5,7 @@ FROM alibaba-cloud-linux-3-registry.cn-hangzhou.cr.aliyuncs.com/alinux3/python
 WORKDIR /app
 
 # 复制依赖文件到容器中
-COPY requirements.txt .
+COPY requirments.txt .
 
 # 安装依赖（使用--no-cache-dir减少镜像体积）
 RUN pip install --no-cache-dir -r requirements.txt
