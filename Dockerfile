@@ -6,6 +6,7 @@ WORKDIR /app
 
 # 复制依赖文件到容器中
 COPY requirments.txt .
+
      
 
 # 安装依赖（使用--no-cache-dir减少镜像体积）
