@@ -1,5 +1,5 @@
 # 基础镜像
-FROM alibaba-cloud-linux-3-registry.cn-hangzhou.cr.aliyuncs.com/alinux3/python
+FROM swr.cn-north-4.myhuaweicloud.com/ddn-k8s/ghcr.io/astral-sh/uv:python3.11-bookworm-slim-linuxarm64
 
 # 设置工作目录（可选，建议添加，方便后续操作）
 WORKDIR /app
