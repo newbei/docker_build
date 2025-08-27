@@ -5,10 +5,7 @@ FROM swr.cn-north-4.myhuaweicloud.com/ddn-k8s/ghcr.io/astral-sh/uv:python3.11-bo
 WORKDIR /app
 
 # 复制依赖文件到容器中
-COPY requirments.txt .
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
-     
-
-# 安装依赖（使用--no-cache-dir减少镜像体积）
-RUN pip install --no-cache-dir -r requirments.txt
                                   
