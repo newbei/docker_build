@@ -1,5 +1,5 @@
 # 基础镜像
-FROM verlai/verl:vllm015.dev
+FROM verlai/verl:vllm012.latest
 
 # ENV PYTHONUNBUFFERED=1
 
