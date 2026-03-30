@@ -1,5 +1,5 @@
 # 基础镜像
-FROM verlai/verl:vllm012.latest
+FROM docker.io/vllm/vllm-openai:latest-cu130
 
 # ENV PYTHONUNBUFFERED=1
 
