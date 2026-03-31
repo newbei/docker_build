@@ -1,5 +1,5 @@
 # 基础镜像
-FROM docker.io/vllm/vllm-openai:latest-cu130
+FROM docker.io/lmcache/vllm-openai:nightly-2026-03-31
 
 # ENV PYTHONUNBUFFERED=1
 
